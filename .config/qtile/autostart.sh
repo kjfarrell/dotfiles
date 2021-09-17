@@ -7,5 +7,5 @@ volumeicon &
 #picom &
 
 nitrogen --restore &
-systemctl --user start wallpaper.service
-systemctl --user start wallpaper.timer
+systemctl --user start wallpaper.service &
+systemctl --user start wallpaper.timer &
