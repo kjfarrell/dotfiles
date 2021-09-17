@@ -16,7 +16,6 @@ layout_conf = {
 }
 
 layouts = [
-    layout.Max(),
     layout.MonadTall(**layout_conf),
     layout.MonadWide(**layout_conf),
     layout.Bsp(**layout_conf),
@@ -27,6 +26,7 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
+    layout.Max(),
 ]
 
 floating_layout = layout.Floating(
